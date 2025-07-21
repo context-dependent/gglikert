@@ -34,7 +34,7 @@ plot_likert_table <- function(
         d |>
           dplyr::filter(
             as.integer(response_category) == 1L,
-            p > 0.03
+            p >= 0.05
           )
       }
     ) +
