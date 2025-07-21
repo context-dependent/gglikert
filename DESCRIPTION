@@ -2,7 +2,8 @@ Package: gglikert
 Title: Plot Subgroup Likert Tables
 Version: 0.0.0.9000
 Authors@R: 
-    person("Thomas", "McManus")
+    person("Thomas", "McManus", ,
+        email = "tomas.k.mcmanus@gmail.com", role = c("aut", "cre"))
 Description: A package to plot subgroup Likert tables using ggplot2.
     It provides a function to create a stacked bar chart of Likert
     responses, with options for customizing colors and fonts.
