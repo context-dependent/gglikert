@@ -110,3 +110,8 @@ eval_condition <- function(.data, .condition, .env = rlang::caller_env()) {
     env = .env
   )
 }
+
+
+get_scale_preset <- function(preset = c("default", "agree_5", "recommend_6")) {
+  scale_presets[[match.arg(preset)]]
+}
